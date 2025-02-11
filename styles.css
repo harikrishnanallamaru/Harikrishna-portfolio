@@ -1,0 +1,45 @@
+html
+{
+    background-color: #04202e;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Horizontally centers the content */
+    align-items:center;     /* Vertically centers the content */
+    font-family: Arial, serif; /* Background color of the entire page */
+}
+a
+{
+    color:aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    margin: 10px;
+    position: relative;
+}
+a:hover
+{
+    color: green;
+    text-decoration: underline;
+
+
+}
+h1
+{
+    color: azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h4{
+    color: brown;
+    font-family: cursive;
+}
+footer {
+    position: absolute; /* Position it absolutely at the bottom */
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Take the full width of the page */
+    background-color: #333; /* Dark background */
+    color: white; /* White text color */
+    text-align: center; /* Center the text horizontally */
+    padding: 10px 0; /* Vertical padding */
+    font-family: Arial, sans-serif; /* Font style */
+}
