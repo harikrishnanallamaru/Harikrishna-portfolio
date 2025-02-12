@@ -1,13 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Harikrishna Nallamaru - Resume</title>
+  <style>
+    /* Basic Reset and Global Styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+
+    /* Resume Container */
+    .resume-container {
+      max-width: 900px;
+      margin: 20px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Header Section */
+    .header {
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 15px;
+      margin-bottom: 15px;
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: #333;
+    }
+    .contact-info p {
+      margin: 5px 0;
+      font-size: 0.95em;
+    }
+    .contact-info a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+
+    /* Section Styling */
+    .section {
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 15px;
+      margin-bottom: 15px;
+    }
+    .section:last-child {
+      border-bottom: none;
+    }
+    .section h2 {
+      font-size: 1.5em;
+      color: #007bff;
+      margin-bottom: 10px;
+    }
+    .section p {
+      font-size: 1em;
+      line-height: 1.6;
+      margin: 10px 0;
+    }
+    .section ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+    .section ul li {
+      margin: 5px 0;
+    }
+
+    /* Project Card Styling */
+    .project {
+      margin-bottom: 15px;
+    }
+    .project h3 {
+      margin: 0;
+      font-size: 1.2em;
+      color: #333;
+    }
+    .project p {
+      margin: 5px 0 0;
+      font-size: 0.95em;
+    }
+    
+    /* Responsive Adjustments */
+    @media (max-width: 768px) {
+      .resume-container {
+        padding: 20px;
+      }
+      .header h1 {
+        font-size: 2em;
+      }
+      .section h2 {
+        font-size: 1.3em;
+      }
+    }
+  </style>
 </head>
 <body>
-    This is my resume
+    <h1>My Resume - </h1><a href="Assets/Harikrishna_resume.pdf" download style="color: violet; text-decoration: none; padding: 10px 50px; border: none; background-color: #4616a5; border-radius: 5ch;">
+  View Document
+</a>
+  <div class="resume-container">
+    <!-- Header Section -->
+     
+    <div class="header">
+      <h1>Harikrishna Nallamaru</h1>
+      <div class="contact-info">
+        <p>Phone: 7093028521</p>
+        <p>Email: <a href="mailto:harikrishnanallamaru@gmail.com">harikrishnanallamaru@gmail.com</a></p>
+        <p>Address: D.No.3/38, Ramanapalli, Kadapa, Andhra Pradesh, India (516162)</p>
+      </div>
+    </div>
 
+    <!-- Objective -->
+    <div class="section">
+      <h2>Objective</h2>
+      <p>
+        Aspiring Software Engineer with a strong foundation in computer science and hands-on experience in software development through academic projects and internships. Eager to apply my programming skills and problem-solving abilities to contribute to innovative software solutions. Motivated to learn and grow within a dynamic tech environment.
+      </p>
+    </div>
+
+    <!-- Technical Skills -->
+    <div class="section">
+      <h2>Technical Skills</h2>
+      <p><strong>Programming Languages:</strong> Java, Python, C</p>
+      <p><strong>Web Technologies:</strong> HTML, CSS, JavaScript, ReactJS</p>
+      <p><strong>Databases:</strong> MySQL</p>
+      <p><strong>Tools &amp; IDEs:</strong> Visual Studio Code, Eclipse</p>
+      <p><strong>Operating Systems:</strong> Windows</p>
+    </div>
+
+    <!-- Education -->
+    <div class="section">
+      <h2>Education</h2>
+      <p>
+        <strong>B.Tech in Computer Science and Engineering</strong> – May 2023<br>
+        Sri Venkateswara College of Engineering, Kadapa, Andhra Pradesh
+      </p>
+    </div>
+
+    <!-- Projects -->
+    <div class="section">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Bigmart Sales Dataset Analysis Using Machine Learning</h3>
+        <p>
+          Built predictive models for each product at a particular store. This model helps Big Mart understand the properties of products and stores that significantly impact sales.
+        </p>
+      </div>
+      <div class="project">
+        <h3>Master Face Attack On Face Recognition System</h3>
+        <p>
+          Developed a face recognition system using a deep learning approach (convolutional neural network - CNN) to accurately identify individuals from images. Integrated additional features such as text encryption and a graphical user interface (GUI) implemented with Streamlit, enhancing both usability and security.
+        </p>
+      </div>
+    </div>
+
+    <!-- Certifications -->
+    <div class="section">
+      <h2>Certifications</h2>
+      <p>HackerRank Certifications – Java, HTML, SQL</p>
+    </div>
+
+    <!-- Additional Skills -->
+    <div class="section">
+      <h2>Additional Skills</h2>
+      <ul>
+        <li>Troubleshooting</li>
+        <li>Network Operations</li>
+        <li>Interpersonal Communication</li>
+        <li>Problem Solving</li>
+        <li>Teamwork</li>
+        <li>Critical Thinking</li>
+      </ul>
+    </div>
+  </div>
 </body>
 </html>
